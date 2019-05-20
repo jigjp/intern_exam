@@ -1,0 +1,26 @@
+{
+  "name": "intern_exam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jigjp/intern_exam.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jigjp/intern_exam/issues"
+  },
+  "homepage": "https://github.com/jigjp/intern_exam#readme",
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "csv2json": "^1.4.2",
+    "iconv": "^2.3.4",
+    "iconv-lite": "^0.4.24",
+    "string-to-stream": "^1.1.1"
+  }
+}
