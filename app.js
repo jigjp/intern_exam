@@ -37,6 +37,6 @@ axios.get('http://www.pref.fukui.lg.jp/doc/toukei-jouhou/opendata/list_6_d/fil/e
     }, function(err, records){
       records.forEach(r => delete r.__ignore__)
 
-      fs.writeFileSync('fukui_event.json', JSON.stringify(records))
+      fs.writeFileSync('fukui_event.json', JSON.stringify(records.slice(1)))
     })
   })
